@@ -1,4 +1,4 @@
-# Vegetation Condition Index
+# Vegetation Health Index - Mt. Kilimanjaro World Heritage Site
 import os
 import sys
 import json
@@ -15,9 +15,9 @@ evi = ee.ImageCollection('MODIS/MOD09GA_006_EVI')
 ndvi = ee.ImageCollection('MODIS/MOD09GA_006_NDVI')
 ndwi = ee.ImageCollection('MODIS/MOD09GA_006_NDWI')
 #TANZANIA
-qdgc = ee.FeatureCollection('users/lmathew/TZA')
+#qdgc = ee.FeatureCollection('users/lmathew/TZA')
 #Mt Kilimanjaro - 50Km Radius
-#qdgc = ee.FeatureCollection('users/lmathew/Kilimanjaro/mk_radius_50km')
+qdgc = ee.FeatureCollection('users/lmathew/Kilimanjaro/mk_radius_50km')
 
 datey1 = '2000-1-1'
 datey2 = '2019-1-1'
